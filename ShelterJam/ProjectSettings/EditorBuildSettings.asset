@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Starttttt.unity
+    guid: f8c2f56125854c043bfcdd646a8a4437
+  - enabled: 1
+    path: Assets/Scenes/kadir5.unity
+    guid: 86711d935836cce45b7323c9eb6c5857
+  - enabled: 1
+    path: Assets/Scenes/EndIsyan.unity
+    guid: 6be1b85620b19ec49b4e52b16bf0625c
+  - enabled: 1
+    path: Assets/Scenes/End_Win.unity
+    guid: b997af6d4caa58a4a9de55bb0d23a6e1
+  - enabled: 1
+    path: Assets/Scenes/EndOlum.unity
+    guid: c3db1776d2c7bee4996006cd138bdba4
+  m_configObjects: {}
