@@ -25,6 +25,7 @@ public class humanController : MonoBehaviour
 
     public void humanBalance()
     {
+        
         if (aiMove.human.Length < manager.Population)
         {
             for (int i = aiMove.human.Length; i < manager.Population; i++)

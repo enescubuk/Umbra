@@ -13,7 +13,12 @@ public class TextManager : MonoBehaviour
 
     public GameObject foodToggle, waterToggle, happnessToggle, killToggle;
 
-    
+    public Image Image;
+
+    void Start()
+    {
+        
+    }
     void Update()
     {
         if (killToggle.GetComponent<Toggle>().isOn == false && foodToggle.GetComponent<Toggle>().isOn == false && waterToggle.GetComponent<Toggle>().isOn == false && happnessToggle.GetComponent<Toggle>().isOn == false)
@@ -22,6 +27,7 @@ public class TextManager : MonoBehaviour
             WateSlider.value = manager.Water;
             HappsSlider.value = manager.Happiness;
             PopuonSlider.value = manager.Population;
+            Image.fillAmount = (manager.Population * 0.01f * 1.333333333333333f);
         }
         
     }

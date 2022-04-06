@@ -1,4 +1,4 @@
-    using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -94,4 +94,35 @@ public class aiMove : MonoBehaviour
             }
         }
     }
+    public void oda0Button()
+    {
+        //nextPos = movePoints[0].transform.position;
+        Debug.Log(0);
+    }
+    public void oda1Button()
+    {
+        //nextPos = movePoints[1].transform.position;
+        Debug.Log(1);
+    }
+    public void oda2Button()
+    {
+        //nextPos = movePoints[2].transform.position;
+        Debug.Log(2);
+    }
+    public void oda3Button()
+    {
+        //nextPos = movePoints[3].transform.position;
+        Debug.Log(3);
+    }
+    public void oda4Button()
+    {
+        //nextPos = movePoints[4].transform.position;
+        Debug.Log(4);
+    }
+    public void oda5Button()
+    {
+        //nextPos = movePoints[5].transform.position;
+        Debug.Log(5);
+    }
+    
 }
